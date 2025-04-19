@@ -21,7 +21,7 @@ public class EmployeeTest {
 		double employee2MonthlySalary = employee2.getMonthlySalary();
 		
 		// Displaying class objects variables content
-		System.out.println(" ===== Nomina de Don Lalo Associates A.C. de C.V. ===== ");
+		System.out.println(" ===== ABC COMPANY ===== ");
 		System.out.printf("%s%20s%20s%20s%n", "Nombre", "Apellido", "Salario Mensual", "Salario Anual");
 		System.out.printf("%s%20s%15.2f%20.2f%n", employee1FirstName, employee1LastName, employee1MonthlySalary, employee1MonthlySalary * 12);
 		System.out.printf("%s%20s%15.2f%20.2f%n", employee2FirstName, employee2LastName, employee2MonthlySalary, employee2MonthlySalary * 12);
@@ -37,7 +37,7 @@ public class EmployeeTest {
 		double employee2_IncreasedSalary = employee2.increaseSalary(employee2MonthlySalary, increase);
 		
 		// Displaying class objects variables content
-		System.out.println(" ===== Nomina de Don Lalo Associates A.C. de C.V. ===== ");
+		System.out.println(" ===== ABC COMPANY ===== ");
 		System.out.printf("%s%20s%20s%20s%n", "Nombre", "Apellido", "Salario Mensual", "Salario Anual");
 		System.out.printf("%s%20s%15.2f%20.2f%n", employee1FirstName, employee1LastName, employee1_IncreasedSalary, employee1_IncreasedSalary * 12);
 		System.out.printf("%s%20s%15.2f%20.2f%n", employee2FirstName, employee2LastName, employee2_IncreasedSalary, employee2_IncreasedSalary * 12);
